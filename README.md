@@ -1,4 +1,4 @@
-NOTE: This project is incompelete, you can retrain the model and use the scrape the data from the site in the folder data.
+NOTE: This project is incompelete, you can retrain the model and scrape the data from the site in the folder data.
 I'm too lazy to continue.
 
 # Football Match Prediction System
