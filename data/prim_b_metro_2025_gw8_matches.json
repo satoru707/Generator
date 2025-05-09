@@ -1,0 +1,1633 @@
+-- Brown de Adrogué vs Sacachispas
+INSERT INTO matches (
+    matchday, 
+    date, 
+    home_team, 
+    away_team, 
+    score, 
+    home_lineup, 
+    away_lineup, 
+    goals, 
+    match_link
+) VALUES 
+('Game week 8', '2025-03-22', 'Sacachispas', 'Villa Dálmine', '1 - 1',
+'[{"name": "F. Troncoso", "events": [{"type": "Yellow Card", "minute": "72''"}]}, {"name": "H. Ortiz", "events": [{"type": "Yellow Card", "minute": "83''"}]}, {"name": "R. Barreto", "events": []}, {"name": "L. Cardozo", "events": []}, {"name": "A. Cruz", "events": []}, {"name": "R. Priori", "events": [{"type": "Yellow Card", "minute": "63''"}]}, {"name": "L. Zárate", "events": []}, {"name": "A. Visco", "events": [{"type": "Yellow Card", "minute": "75''"}, {"type": "Goal", "minute": "81''"}]}, {"name": "C. Campuzano", "events": []}, {"name": "J. Martínez", "events": [{"type": "Yellow Card", "minute": "13''"}]}, {"name": "S. Brotzman", "events": [{"type": "Yellow Card", "minute": "43''"}]}]',
+'[{"name": "M. Perafán", "events": []}, {"name": "G. Bojanich", "events": [{"type": "Yellow Card", "minute": "75''"}]}, {"name": "M. Pollacchi", "events": []}, {"name": "A. Schönfeld", "events": []}, {"name": "F. Garzino", "events": []}, {"name": "M. Puch", "events": [{"type": "Yellow Card", "minute": "16''"}]}, {"name": "J. Fernández", "events": []}, {"name": "Á. Ramón", "events": []}, {"name": "T. Ponzo", "events": [{"type": "Goal", "minute": "3''"}]}, {"name": "M. Resquín", "events": [{"type": "Yellow Card", "minute": "31''"}]}, {"name": "F. Sellecchia", "events": [{"type": "Yellow Card", "minute": "83''"}]}]',
+'[{"name": "T. Ponzo", "minute": "3''", "score": "0 - 1"}, {"name": "A. Visco", "minute": "81''", "score": "1 - 1"}]',
+'https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/sacachispas-fc/villa-dalmine/4591382/'),
+
+('Game week 8', '2025-03-22', 'UAI Urquiza', 'Excursionistas', '1 - 2',
+'[{"name": "A. Bottini", "events": []}, {"name": "N. Menéndez", "events": []}, {"name": "M. Alaniz", "events": []}, {"name": "V. Rodríguez", "events": [{"type": "Red Card", "minute": "22''"}]}, {"name": "L. Arcuri", "events": []}, {"name": "M. Aguirre", "events": []}, {"name": "S. Piccinetti", "events": []}, {"name": "S. Sciacqua", "events": []}, {"name": "P. Madero", "events": []}, {"name": "M. Brito", "events": []}, {"name": "J. Ingratti", "events": []}]',
+'[{"name": "N. Cajal", "events": []}, {"name": "M. Cahais", "events": []}, {"name": "H. Igarzábal", "events": [{"type": "Goal", "minute": "10''"}]}, {"name": "H. Zarco", "events": []}, {"name": "C. Peralta", "events": []}, {"name": "N. Mosca", "events": []}, {"name": "F. Ferraro", "events": []}, {"name": "L. Pata", "events": []}, {"name": "G. Zoratti", "events": []}, {"name": "J. Zárate", "events": [{"type": "Goal", "minute": "25''"}]}, {"name": "I. Vera", "events": []}]',
+'[{"name": "H. Igarzábal", "minute": "10''", "score": "0 - 1"}, {"name": "J. Zárate", "minute": "25''", "score": "0 - 2"}, {"name": "R. Scarcella", "minute": "74''", "score": "1 - 2"}]',
+'https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/atletico-ferrocarril-urquiza/excursionistas/4591387/'),
+
+('Game week 8', '2025-03-22', 'Sportivo Italiano', 'Midland', '0 - 1',
+'[{"name": "F. Díaz", "events": []}, {"name": "E. Mayola", "events": []}, {"name": "C. Bifiguer", "events": [{"type": "Yellow Card", "minute": "15''"}]}, {"name": "E. Porro", "events": []}, {"name": "E. Díaz", "events": [{"type": "Yellow Card", "minute": "33''"}]}, {"name": "B. Kreiman", "events": []}, {"name": "L. Laborda", "events": []}, {"name": "F. Gómez", "events": []}, {"name": "J. Rojas", "events": [{"type": "Yellow Card", "minute": "18''"}]}, {"name": "E. Mozzone", "events": []}, {"name": "F. Aguirre", "events": []}]',
+'[{"name": "L. Maldonado", "events": []}, {"name": "F. Cataldi", "events": []}, {"name": "J. Kruger", "events": [{"type": "Yellow Card", "minute": "77''"}]}, {"name": "P. Castorani", "events": [{"type": "Yellow Card", "minute": "30''"}]}, {"name": "M. Frattini", "events": []}, {"name": "A. Campana", "events": []}, {"name": "M. Rogoski", "events": [{"type": "Goal", "minute": "63''"}]}, {"name": "G. Calabria", "events": []}, {"name": "N. Violini", "events": []}, {"name": "L. Díaz Laharque", "events": [{"type": "Yellow Card", "minute": "22''"}]}, {"name": "F. Molina", "events": []}]',
+'[{"name": "M. Rogoski", "minute": "63''", "score": "0 - 1"}]',
+'https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/club-sportivo-italiano/asociacion-ferrocarril-midland/4591388/'),
+
+('Game week 8', '2025-03-22', 'Comunicaciones', 'Deportivo Laferrere', '2 - 2',
+'[{"name": "F. Otarola", "events": []}, {"name": "C. Chimino", "events": []}, {"name": "M. López", "events": []}, {"name": "G. Zabala", "events": [{"type": "Yellow Card", "minute": "38''"}]}, {"name": "J. Ibáñez", "events": []}, {"name": "C. Puigdellivol", "events": [{"type": "Yellow Card", "minute": "68''"}]}, {"name": "F. López", "events": []}, {"name": "A. Arrighi", "events": []}, {"name": "M. Brambillo", "events": []}, {"name": "M. Tunessi", "events": [{"type": "Goal", "minute": "10''"}]}, {"name": "D. Maguicha", "events": []}]',
+'[{"name": "C. Morel", "events": []}, {"name": "F. Gómez", "events": [{"type": "Yellow Card", "minute": "30''"}]}, {"name": "F. Real", "events": []}, {"name": "D. Solís", "events": []}, {"name": "E. Trejo", "events": []}, {"name": "A. Paulides", "events": []}, {"name": "F. Ortíz", "events": [{"type": "Goal", "minute": "23''"}]}, {"name": "M. Cantero", "events": []}, {"name": "C. Gugenheim", "events": [{"type": "Goal", "minute": "58''"}]}, {"name": "L. Benítez", "events": []}, {"name": "A. Espeche", "events": []}]',
+'[{"name": "M. Tunessi", "minute": "10''", "score": "1 - 0"}, {"name": "F. Ortíz", "minute": "23''", "score": "2 - 0"}, {"name": "C. Gugenheim", "minute": "58''", "score": "2 - 1"}, {"name": "L. Goberville", "minute": "90''+2", "score": "2 - 2"}]',
+'https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/club-comunicaciones/laferrere/4591379/'),
+
+('Game week 8', '2025-03-22', 'Real Pilar', 'Acassuso', '2 - 0',
+'[{"name": "M. Cano", "events": []}, {"name": "L. Monge", "events": []}, {"name": "J. Rodríguez", "events": []}, {"name": "E. Franco", "events": []}, {"name": "G. Govi", "events": []}, {"name": "N. Pansardi", "events": []}, {"name": "L. Chambi", "events": [{"type": "Goal", "minute": "82''"}]}, {"name": "I. Smith", "events": []}, {"name": "N. Ríos", "events": []}, {"name": "M. Riquelme", "events": [{"type": "Goal", "minute": "31''"}]}, {"name": "B. Martín", "events": []}]',
+'[{"name": "J. Domínguez", "events": []}, {"name": "E. Filippetto", "events": [{"type": "Yellow Card", "minute": "47''"}]}, {"name": "J. Ghirardello", "events": []}, {"name": "A. Ruíz", "events": [{"type": "Yellow Card", "minute": "86''"}]}, {"name": "J. Ponce de León", "events": []}, {"name": "D. Escalante", "events": []}, {"name": "F. Nicolaievski", "events": []}, {"name": "J. Serrizuela", "events": []}, {"name": "B. Hernández", "events": []}, {"name": "F. Senn", "events": []}, {"name": "D. de Estéfano", "events": []}]',
+'[{"name": "M. Riquelme", "minute": "31''", "score": "1 - 0"}, {"name": "L. Chambi", "minute": "82''", "score": "2 - 0"}]',
+'https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/real-pilar/ca-acassuso/4591386/'),
+
+('Game week 8', '2025-03-23', 'San Martín Burzaco', 'Flandria', '1 - 0',
+'[{"name": "G. Rehak", "events": []}, {"name": "M. Escudero", "events": []}, {"name": "B. Molina", "events": []}, {"name": "S. Díaz", "events": []}, {"name": "A. Siliman", "events": [{"type": "Goal", "minute": "31''"}]}, {"name": "D. Auzqui", "events": []}, {"name": "F. Benítez", "events": [{"type": "Yellow Card", "minute": "76''"}]}, {"name": "M. Ortigoza", "events": []}, {"name": "C. Treppo", "events": []}, {"name": "F. Giménez", "events": []}, {"name": "L. Geneiro", "events": [{"type": "Yellow Card", "minute": "45''"}]}]',
+'[{"name": "T. Figueroa", "events": []}, {"name": "A. Morales", "events": [{"type": "Yellow Card", "minute": "22''"}]}, {"name": "M. Mariatti", "events": []}, {"name": "D. Spitale", "events": [{"type": "Yellow Card", "minute": "53''"}]}, {"name": "F. Schiavoni", "events": [{"type": "Yellow Card", "minute": "50''"}]}, {"name": "F. Bustamante", "events": []}, {"name": "G. Salega", "events": []}, {"name": "A. Nalerio", "events": []}, {"name": "B. Guelfi", "events": [{"type": "Red Card", "minute": "60''"}]}, {"name": "M. Correa", "events": []}, {"name": "J. Palacio", "events": []}]',
+'[{"name": "A. Siliman", "minute": "31''", "score": "1 - 0"}]',
+'https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/san-martin-de-burzaco/csyd-flandria/4591381/'),
+
+('Game week 8', '2025-03-23', 'Deportivo Merlo', 'Argentino Quilmes', '1 - 0',
+'[{"name": "P. Fernández", "events": [{"type": "Yellow Card", "minute": "72''"}]}, {"name": "A. Ordano", "events": []}, {"name": "A. Jiménez", "events": []}, {"name": "G. Ojeda", "events": []}, {"name": "S. Sosa", "events": [{"type": "Goal", "minute": "54''"}]}, {"name": "T. Bernal", "events": []}, {"name": "L. Ibarra", "events": [{"type": "Yellow Card", "minute": "68''"}]}, {"name": "S. Benega", "events": []}, {"name": "R. Cao", "events": [{"type": "Yellow Card", "minute": "88''"}, {"type": "Other", "minute": "90+7''"}]}, {"name": "F. González", "events": []}, {"name": "F. Aguerre", "events": []}]',
+'[{"name": "A. Tello", "events": []}, {"name": "G. Pedrosa", "events": []}, {"name": "L. Nadalín", "events": [{"type": "Yellow Card", "minute": "42''"}]}, {"name": "F. Cosciuc", "events": [{"type": "Yellow Card", "minute": "68''"}]}, {"name": "L. Escalante", "events": []}, {"name": "C. Maidana", "events": []}, {"name": "A. Ortíz", "events": []}, {"name": "F. Cipresso", "events": []}, {"name": "D. Roberts", "events": [{"type": "Yellow Card", "minute": "90+7''"}]}, {"name": "A. Abregú", "events": [{"type": "Yellow Card", "minute": "66''"}]}, {"name": "E. Torancio", "events": []}]',
+'[{"name": "S. Sosa", "minute": "54''", "score": "1 - 0"}]',
+'https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/club-social-y-deportivo-merlo/argentino-de-quilmes/4591383/'),
+
+('Game week 8', '2025-03-23', 'Deportivo Armenio', 'Fénix', '1 - 1',
+'[{"name": "I. López", "events": []}, {"name": "N. Troxler", "events": []}, {"name": "L. Medina", "events": [{"type": "Yellow Card", "minute": "12''"}]}, {"name": "I. Pérez", "events": []}, {"name": "I. Cardozo", "events": []}, {"name": "N. Sica", "events": []}, {"name": "V. Venetucci", "events": []}, {"name": "D. Barrionuevo", "events": [{"type": "Yellow Card", "minute": "19''"}]}, {"name": "S. Montero", "events": []}, {"name": "J. Herrera", "events": [{"type": "Goal", "minute": "25''"}, {"type": "Yellow Card", "minute": "75''"}]}, {"name": "G. Maldonado", "events": []}]',
+'[{"name": "V. Parra", "events": []}, {"name": "J. Bembo", "events": []}, {"name": "G. Rodríguez", "events": []}, {"name": "L. Córdoba", "events": []}, {"name": "S. Martín", "events": [{"type": "Yellow Card", "minute": "59''"}]}, {"name": "M. Sánchez", "events": []}, {"name": "F. Pérez", "events": []}, {"name": "R. Breccia", "events": []}, {"name": "F. Díaz", "events": []}, {"name": "F. Melivillo", "events": []}, {"name": "D. Anríquez", "events": [{"type": "Goal", "minute": "7''"}, {"type": "Red Card", "minute": "30''"}]}]',
+'[{"name": "D. Anríquez", "minute": "7''", "score": "0 - 1"}, {"name": "J. Herrera", "minute": "25''", "score": "1 - 1"}]',
+'https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/club-deportivo-armenio/fenix/4591380/'),
+
+('Game week 8', '2025-03-23', 'Dock Sud', 'Argentino Merlo', '1 - 2',
+'[{"name": "J. Bustillos", "events": []}, {"name": "L. Nebot", "events": []}, {"name": "L. Chaparro", "events": [{"type": "Yellow Card", "minute": "85''"}]}, {"name": "P. Durante", "events": []}, {"name": "N. López", "events": [{"type": "Yellow Card", "minute": "25''"}]}, {"name": "Alejandro Ávalos", "events": [{"type": "Yellow Card", "minute": "30''"}]}, {"name": "F. Pérez", "events": []}, {"name": "V. Quevedo", "events": []}, {"name": "B. Villalba", "events": [{"type": "Yellow Card", "minute": "37''"}]}, {"name": "M. Molina", "events": []}, {"name": "J. González", "events": []}]',
+'[{"name": "C. Atamañuk", "events": [{"type": "Yellow Card", "minute": "90''"}]}, {"name": "D. Ursino", "events": []}, {"name": "A. Ledesma", "events": []}, {"name": "E. Zárate", "events": [{"type": "Yellow Card", "minute": "46''"}]}, {"name": "C. Giménez", "events": []}, {"name": "C. Medina", "events": []}, {"name": "M. Ledesma", "events": []}, {"name": "V. López", "events": [{"type": "Yellow Card", "minute": "41''"}]}, {"name": "F. Maldonado", "events": []}, {"name": "L. Scarnato", "events": []}, {"name": "J. Ortíz", "events": []}]',
+'[{"name": "R. Pérez", "minute": "51''", "score": "1 - 0"}, {"name": "L. Llodrá", "minute": "70''", "score": "1 - 1"}, {"name": "L. Romero", "minute": "80''", "score": "1 - 2"}]',
+'https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/dock-sud/argentino-de-merlo/4591384/'),
+
+('Game week 8', '2025-03-23', 'Villa San Carlos', 'Brown de Adrogué', '2 - 1',
+'[{"name": "T. Akimenco", "events": []}, {"name": "N. Benavídez", "events": []}, {"name": "A. Lloyaiy", "events": []}, {"name": "F. Cacace", "events": []}, {"name": "Á. Acosta", "events": []}, {"name": "F. Cairo", "events": [{"type": "Goal", "minute": "20''"}]}, {"name": "A. Pontón", "events": []}, {"name": "E. Zagert", "events": [{"type": "Goal", "minute": "85''"}]}, {"name": "A. Lugones", "events": []}, {"name": "M. Samaniego", "events": []}, {"name": "F. Zabala", "events": []}]',
+'[{"name": "S. Giovini", "events": []}, {"name": "L. Lugarzo", "events": []}, {"name": "A. Minnicelli", "events": []}, {"name": "M. Pieres", "events": []}, {"name": "A. Sánchez", "events": []}, {"name": "J. Bogado", "events": [{"type": "Yellow Card", "minute": "74''"}]}, {"name": "F. Enrique", "events": [{"type": "Yellow Card", "minute": "90+2''"}]}, {"name": "M. Sproat", "events": []}, {"name": "L. Lovazzano", "events": []}, {"name": "J. Cañete", "events": [{"type": "Goal", "minute": "15''"}]}, {"name": "J. Mendoza", "events": []}]',
+'[{"name": "J. Cañete", "minute": "15''", "score": "0 - 1"}, {"name": "F. Cairo", "minute": "20''", "score": "1 - 1"}, {"name": "E. Zagert", "minute": "85''", "score": "2 - 1"}]',
+'https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/villa-san-carlos/club-atletico-brown-de-adrogue/4591385/'),
+
+
+
+INSERT INTO matches (
+    matchday, 
+    date, 
+    home_team, 
+    away_team, 
+    match_link
+) VALUES 
+('Game week 8', '2025-03-22', 'Sacachispas', 'Villa Dálmine','https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/sacachispas-fc/villa-dalmine/4591382/'),
+
+('Game week 8', '2025-03-22', 'UAI Urquiza', 'Excursionistas','https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/atletico-ferrocarril-urquiza/excursionistas/4591387/'),
+
+('Game week 8', '2025-03-22', 'Sportivo Italiano', 'Midland', 'https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/club-sportivo-italiano/asociacion-ferrocarril-midland/4591388/'),
+
+('Game week 8', '2025-03-22', 'Comunicaciones', 'Deportivo Laferrere','https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/club-comunicaciones/laferrere/4591379/'),
+
+('Game week 8', '2025-03-22', 'Real Pilar', 'Acassuso', 'https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/real-pilar/ca-acassuso/4591386/'),
+
+('Game week 8', '2025-03-23', 'San Martín Burzaco', 'Flandria', 'https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/san-martin-de-burzaco/csyd-flandria/4591381/'),
+
+('Game week 8', '2025-03-23', 'Deportivo Merlo', 'Argentino Quilmes','https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/club-social-y-deportivo-merlo/argentino-de-quilmes/4591383/'),
+
+('Game week 8', '2025-03-23', 'Deportivo Armenio', 'Fénix','https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/club-deportivo-armenio/fenix/4591380/'),
+
+('Game week 8', '2025-03-23', 'Dock Sud', 'Argentino Merlo', 'https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/dock-sud/argentino-de-merlo/4591384/'),
+
+('Game week 8', '2025-03-23', 'Villa San Carlos', 'Brown de Adrogué','https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/villa-san-carlos/club-atletico-brown-de-adrogue/4591385/'),
+
+
+
+
+-- Game week 8 matches
+UPDATE matches
+SET
+    score = CASE
+        WHEN matchday = 'Game week 8' AND home_team = 'Sacachispas' THEN '1 - 1'
+        WHEN matchday = 'Game week 8' AND home_team = 'UAI Urquiza' THEN '1 - 2'
+        WHEN matchday = 'Game week 8' AND home_team = 'Sportivo Italiano' THEN '0 - 1'
+        WHEN matchday = 'Game week 8' AND home_team = 'Comunicaciones' THEN '2 - 2'
+        WHEN matchday = 'Game week 8' AND home_team = 'Real Pilar' THEN '2 - 0'
+        WHEN matchday = 'Game week 8' AND home_team = 'San Martín Burzaco' THEN '1 - 0'
+        WHEN matchday = 'Game week 8' AND home_team = 'Deportivo Merlo' THEN '1 - 0'
+        WHEN matchday = 'Game week 8' AND home_team = 'Deportivo Armenio' THEN '1 - 1'
+        WHEN matchday = 'Game week 8' AND home_team = 'Dock Sud' THEN '1 - 2'
+        WHEN matchday = 'Game week 8' AND home_team = 'Villa San Carlos' THEN '2 - 1'
+    END,
+    home_lineup = CASE
+        WHEN matchday = 'Game week 8' AND home_team = 'Sacachispas' THEN '[{"name": "F. Troncoso", "events": [{"type": "Yellow Card", "minute": "72''"}]}, {"name": "H. Ortiz", "events": [{"type": "Yellow Card", "minute": "83''"}]}, {"name": "R. Barreto", "events": []}, {"name": "L. Cardozo", "events": []}, {"name": "A. Cruz", "events": []}, {"name": "R. Priori", "events": [{"type": "Yellow Card", "minute": "63''"}]}, {"name": "L. Zárate", "events": []}, {"name": "A. Visco", "events": [{"type": "Yellow Card", "minute": "75''"}, {"type": "Goal", "minute": "81''"}]}, {"name": "C. Campuzano", "events": []}, {"name": "J. Martínez", "events": [{"type": "Yellow Card", "minute": "13''"}]}, {"name": "S. Brotzman", "events": [{"type": "Yellow Card", "minute": "43''"}]}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'UAI Urquiza' THEN '[{"name": "A. Bottini", "events": []}, {"name": "N. Menéndez", "events": []}, {"name": "M. Alaniz", "events": []}, {"name": "V. Rodríguez", "events": [{"type": "Red Card", "minute": "22''"}]}, {"name": "L. Arcuri", "events": []}, {"name": "M. Aguirre", "events": []}, {"name": "S. Piccinetti", "events": []}, {"name": "S. Sciacqua", "events": []}, {"name": "P. Madero", "events": []}, {"name": "M. Brito", "events": []}, {"name": "J. Ingratti", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Sportivo Italiano' THEN '[{"name": "F. Díaz", "events": []}, {"name": "E. Mayola", "events": []}, {"name": "C. Bifiguer", "events": [{"type": "Yellow Card", "minute": "15''"}]}, {"name": "E. Porro", "events": []}, {"name": "E. Díaz", "events": [{"type": "Yellow Card", "minute": "33''"}]}, {"name": "B. Kreiman", "events": []}, {"name": "L. Laborda", "events": []}, {"name": "F. Gómez", "events": []}, {"name": "J. Rojas", "events": [{"type": "Yellow Card", "minute": "18''"}]}, {"name": "E. Mozzone", "events": []}, {"name": "F. Aguirre", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Comunicaciones' THEN '[{"name": "F. Otarola", "events": []}, {"name": "C. Chimino", "events": []}, {"name": "M. López", "events": []}, {"name": "G. Zabala", "events": [{"type": "Yellow Card", "minute": "38''"}]}, {"name": "J. Ibáñez", "events": []}, {"name": "C. Puigdellivol", "events": [{"type": "Yellow Card", "minute": "68''"}]}, {"name": "F. López", "events": []}, {"name": "A. Arrighi", "events": []}, {"name": "M. Brambillo", "events": []}, {"name": "M. Tunessi", "events": [{"type": "Goal", "minute": "10''"}]}, {"name": "D. Maguicha", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Real Pilar' THEN '[{"name": "M. Cano", "events": []}, {"name": "L. Monge", "events": []}, {"name": "J. Rodríguez", "events": []}, {"name": "E. Franco", "events": []}, {"name": "G. Govi", "events": []}, {"name": "N. Pansardi", "events": []}, {"name": "L. Chambi", "events": [{"type": "Goal", "minute": "82''"}]}, {"name": "I. Smith", "events": []}, {"name": "N. Ríos", "events": []}, {"name": "M. Riquelme", "events": [{"type": "Goal", "minute": "31''"}]}, {"name": "B. Martín", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'San Martín Burzaco' THEN '[{"name": "G. Rehak", "events": []}, {"name": "M. Escudero", "events": []}, {"name": "B. Molina", "events": []}, {"name": "S. Díaz", "events": []}, {"name": "A. Siliman", "events": [{"type": "Goal", "minute": "31''"}]}, {"name": "D. Auzqui", "events": []}, {"name": "F. Benítez", "events": [{"type": "Yellow Card", "minute": "76''"}]}, {"name": "M. Ortigoza", "events": []}, {"name": "C. Treppo", "events": []}, {"name": "F. Giménez", "events": []}, {"name": "L. Geneiro", "events": [{"type": "Yellow Card", "minute": "45''"}]}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Deportivo Merlo' THEN '[{"name": "P. Fernández", "events": [{"type": "Yellow Card", "minute": "72''"}]}, {"name": "A. Ordano", "events": []}, {"name": "A. Jiménez", "events": []}, {"name": "G. Ojeda", "events": []}, {"name": "S. Sosa", "events": [{"type": "Goal", "minute": "54''"}]}, {"name": "T. Bernal", "events": []}, {"name": "L. Ibarra", "events": [{"type": "Yellow Card", "minute": "68''"}]}, {"name": "S. Benega", "events": []}, {"name": "R. Cao", "events": [{"type": "Yellow Card", "minute": "88''"}, {"type": "Other", "minute": "90+7''"}]}, {"name": "F. González", "events": []}, {"name": "F. Aguerre", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Deportivo Armenio' THEN '[{"name": "I. López", "events": []}, {"name": "N. Troxler", "events": []}, {"name": "L. Medina", "events": [{"type": "Yellow Card", "minute": "12''"}]}, {"name": "I. Pérez", "events": []}, {"name": "I. Cardozo", "events": []}, {"name": "N. Sica", "events": []}, {"name": "V. Venetucci", "events": []}, {"name": "D. Barrionuevo", "events": [{"type": "Yellow Card", "minute": "19''"}]}, {"name": "S. Montero", "events": []}, {"name": "J. Herrera", "events": [{"type": "Goal", "minute": "25''"}, {"type": "Yellow Card", "minute": "75''"}]}, {"name": "G. Maldonado", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Dock Sud' THEN '[{"name": "J. Bustillos", "events": []}, {"name": "L. Nebot", "events": []}, {"name": "L. Chaparro", "events": [{"type": "Yellow Card", "minute": "85''"}]}, {"name": "P. Durante", "events": []}, {"name": "N. López", "events": [{"type": "Yellow Card", "minute": "25''"}]}, {"name": "Alejandro Ávalos", "events": [{"type": "Yellow Card", "minute": "30''"}]}, {"name": "F. Pérez", "events": []}, {"name": "V. Quevedo", "events": []}, {"name": "B. Villalba", "events": [{"type": "Yellow Card", "minute": "37''"}]}, {"name": "M. Molina", "events": []}, {"name": "J. González", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Villa San Carlos' THEN '[{"name": "T. Akimenco", "events": []}, {"name": "N. Benavídez", "events": []}, {"name": "A. Lloyaiy", "events": []}, {"name": "F. Cacace", "events": []}, {"name": "Á. Acosta", "events": []}, {"name": "F. Cairo", "events": [{"type": "Goal", "minute": "20''"}]}, {"name": "A. Pontón", "events": []}, {"name": "E. Zagert", "events": [{"type": "Goal", "minute": "85''"}]}, {"name": "A. Lugones", "events": []}, {"name": "M. Samaniego", "events": []}, {"name": "F. Zabala", "events": []}]'::jsonb
+    END,
+    away_lineup = CASE
+        WHEN matchday = 'Game week 8' AND home_team = 'Sacachispas' THEN '[{"name": "M. Perafán", "events": []}, {"name": "G. Bojanich", "events": [{"type": "Yellow Card", "minute": "75''"}]}, {"name": "M. Pollacchi", "events": []}, {"name": "A. Schönfeld", "events": []}, {"name": "F. Garzino", "events": []}, {"name": "M. Puch", "events": [{"type": "Yellow Card", "minute": "16''"}]}, {"name": "J. Fernández", "events": []}, {"name": "Á. Ramón", "events": []}, {"name": "T. Ponzo", "events": [{"type": "Goal", "minute": "3''"}]}, {"name": "M. Resquín", "events": [{"type": "Yellow Card", "minute": "31''"}]}, {"name": "F. Sellecchia", "events": [{"type": "Yellow Card", "minute": "83''"}]}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'UAI Urquiza' THEN '[{"name": "N. Cajal", "events": []}, {"name": "M. Cahais", "events": []}, {"name": "H. Igarzábal", "events": [{"type": "Goal", "minute": "10''"}]}, {"name": "H. Zarco", "events": []}, {"name": "C. Peralta", "events": []}, {"name": "N. Mosca", "events": []}, {"name": "F. Ferraro", "events": []}, {"name": "L. Pata", "events": []}, {"name": "G. Zoratti", "events": []}, {"name": "J. Zárate", "events": [{"type": "Goal", "minute": "25''"}]}, {"name": "I. Vera", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Sportivo Italiano' THEN '[{"name": "L. Maldonado", "events": []}, {"name": "F. Cataldi", "events": []}, {"name": "J. Kruger", "events": [{"type": "Yellow Card", "minute": "77''"}]}, {"name": "P. Castorani", "events": [{"type": "Yellow Card", "minute": "30''"}]}, {"name": "M. Frattini", "events": []}, {"name": "A. Campana", "events": []}, {"name": "M. Rogoski", "events": [{"type": "Goal", "minute": "63''"}]}, {"name": "G. Calabria", "events": []}, {"name": "N. Violini", "events": []}, {"name": "L. Díaz Laharque", "events": [{"type": "Yellow Card", "minute": "22''"}]}, {"name": "F. Molina", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Comunicaciones' THEN '[{"name": "C. Morel", "events": []}, {"name": "F. Gómez", "events": [{"type": "Yellow Card", "minute": "30''"}]}, {"name": "F. Real", "events": []}, {"name": "D. Solís", "events": []}, {"name": "E. Trejo", "events": []}, {"name": "A. Paulides", "events": []}, {"name": "F. Ortíz", "events": [{"type": "Goal", "minute": "23''"}]}, {"name": "M. Cantero", "events": []}, {"name": "C. Gugenheim", "events": [{"type": "Goal", "minute": "58''"}]}, {"name": "L. Benítez", "events": []}, {"name": "A. Espeche", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Real Pilar' THEN '[{"name": "J. Domínguez", "events": []}, {"name": "E. Filippetto", "events": [{"type": "Yellow Card", "minute": "47''"}]}, {"name": "J. Ghirardello", "events": []}, {"name": "A. Ruíz", "events": [{"type": "Yellow Card", "minute": "86''"}]}, {"name": "J. Ponce de León", "events": []}, {"name": "D. Escalante", "events": []}, {"name": "F. Nicolaievski", "events": []}, {"name": "J. Serrizuela", "events": []}, {"name": "B. Hernández", "events": []}, {"name": "F. Senn", "events": []}, {"name": "D. de Estéfano", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'San Martín Burzaco' THEN '[{"name": "T. Figueroa", "events": []}, {"name": "A. Morales", "events": [{"type": "Yellow Card", "minute": "22''"}]}, {"name": "M. Mariatti", "events": []}, {"name": "D. Spitale", "events": [{"type": "Yellow Card", "minute": "53''"}]}, {"name": "F. Schiavoni", "events": [{"type": "Yellow Card", "minute": "50''"}]}, {"name": "F. Bustamante", "events": []}, {"name": "G. Salega", "events": []}, {"name": "A. Nalerio", "events": []}, {"name": "B. Guelfi", "events": [{"type": "Red Card", "minute": "60''"}]}, {"name": "M. Correa", "events": []}, {"name": "J. Palacio", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Deportivo Merlo' THEN '[{"name": "A. Tello", "events": []}, {"name": "G. Pedrosa", "events": []}, {"name": "L. Nadalín", "events": [{"type": "Yellow Card", "minute": "42''"}]}, {"name": "F. Cosciuc", "events": [{"type": "Yellow Card", "minute": "68''"}]}, {"name": "L. Escalante", "events": []}, {"name": "C. Maidana", "events": []}, {"name": "A. Ortíz", "events": []}, {"name": "F. Cipresso", "events": []}, {"name": "D. Roberts", "events": [{"type": "Yellow Card", "minute": "90+7''"}]}, {"name": "A. Abregú", "events": [{"type": "Yellow Card", "minute": "66''"}]}, {"name": "E. Torancio", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Deportivo Armenio' THEN '[{"name": "V. Parra", "events": []}, {"name": "J. Bembo", "events": []}, {"name": "G. Rodríguez", "events": []}, {"name": "L. Córdoba", "events": []}, {"name": "S. Martín", "events": [{"type": "Yellow Card", "minute": "59''"}]}, {"name": "M. Sánchez", "events": []}, {"name": "F. Pérez", "events": []}, {"name": "R. Breccia", "events": []}, {"name": "F. Díaz", "events": []}, {"name": "F. Melivillo", "events": []}, {"name": "D. Anríquez", "events": [{"type": "Goal", "minute": "7''"}, {"type": "Red Card", "minute": "30''"}]}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Dock Sud' THEN '[{"name": "C. Atamañuk", "events": [{"type": "Yellow Card", "minute": "90''"}]}, {"name": "D. Ursino", "events": []}, {"name": "A. Ledesma", "events": []}, {"name": "E. Zárate", "events": [{"type": "Yellow Card", "minute": "46''"}]}, {"name": "C. Giménez", "events": []}, {"name": "C. Medina", "events": []}, {"name": "M. Ledesma", "events": []}, {"name": "V. López", "events": [{"type": "Yellow Card", "minute": "41''"}]}, {"name": "F. Maldonado", "events": []}, {"name": "L. Scarnato", "events": []}, {"name": "J. Ortíz", "events": []}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Villa San Carlos' THEN '[{"name": "S. Giovini", "events": []}, {"name": "L. Lugarzo", "events": []}, {"name": "A. Minnicelli", "events": []}, {"name": "M. Pieres", "events": []}, {"name": "A. Sánchez", "events": []}, {"name": "J. Bogado", "events": [{"type": "Yellow Card", "minute": "74''"}]}, {"name": "F. Enrique", "events": [{"type": "Yellow Card", "minute": "90+2''"}]}, {"name": "M. Sproat", "events": []}, {"name": "L. Lovazzano", "events": []}, {"name": "J. Cañete", "events": [{"type": "Goal", "minute": "15''"}]}, {"name": "J. Mendoza", "events": []}]'::jsonb
+    END,
+    goals = CASE
+        WHEN matchday = 'Game week 8' AND home_team = 'Sacachispas' THEN '[{"name": "T. Ponzo", "minute": "3''", "score": "0 - 1"}, {"name": "A. Visco", "minute": "81''", "score": "1 - 1"}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'UAI Urquiza' THEN '[{"name": "H. Igarzábal", "minute": "10''", "score": "0 - 1"}, {"name": "J. Zárate", "minute": "25''", "score": "0 - 2"}, {"name": "R. Scarcella", "minute": "74''", "score": "1 - 2"}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Sportivo Italiano' THEN '[{"name": "M. Rogoski", "minute": "63''", "score": "0 - 1"}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Comunicaciones' THEN '[{"name": "M. Tunessi", "minute": "10''", "score": "1 - 0"}, {"name": "F. Ortíz", "minute": "23''", "score": "2 - 0"}, {"name": "C. Gugenheim", "minute": "58''", "score": "2 - 1"}, {"name": "L. Goberville", "minute": "90''+2", "score": "2 - 2"}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Real Pilar' THEN '[{"name": "M. Riquelme", "minute": "31''", "score": "1 - 0"}, {"name": "L. Chambi", "minute": "82''", "score": "2 - 0"}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'San Martín Burzaco' THEN '[{"name": "A. Siliman", "minute": "31''", "score": "1 - 0"}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Deportivo Merlo' THEN '[{"name": "S. Sosa", "minute": "54''", "score": "1 - 0"}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Deportivo Armenio' THEN '[{"name": "D. Anríquez", "minute": "7''", "score": "0 - 1"}, {"name": "J. Herrera", "minute": "25''", "score": "1 - 1"}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Dock Sud' THEN '[{"name": "R. Pérez", "minute": "51''", "score": "1 - 0"}, {"name": "L. Llodrá", "minute": "70''", "score": "1 - 1"}, {"name": "L. Romero", "minute": "80''", "score": "1 - 2"}]'::jsonb
+        WHEN matchday = 'Game week 8' AND home_team = 'Villa San Carlos' THEN '[{"name": "J. Cañete", "minute": "15''", "score": "0 - 1"}, {"name": "F. Cairo", "minute": "20''", "score": "1 - 1"}, {"name": "E. Zagert", "minute": "85''", "score": "2 - 1"}]'::jsonb
+    END
+WHERE matchday = 'Game week 8' AND (
+    home_team = 'Sacachispas' OR
+    home_team = 'UAI Urquiza' OR
+    home_team = 'Sportivo Italiano' OR
+    home_team = 'Comunicaciones' OR
+    home_team = 'Real Pilar' OR
+    home_team = 'San Martín Burzaco' OR
+    home_team = 'Deportivo Merlo' OR
+    home_team = 'Deportivo Armenio' OR
+    home_team = 'Dock Sud' OR
+    home_team = 'Villa San Carlos'
+);
+
+
+
+[
+  {
+    "matchday": "",
+    "date": "Saturday 22/03/2025",
+    "homeTeam": "Sacachispas",
+    "awayTeam": "Villa Dálmine",
+    "score": "1 - 1",
+    "matchLink": "https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/sacachispas-fc/villa-dalmine/4591382/",
+    "goals": [
+      {
+        "name": "T. Ponzo",
+        "minute": "3'",
+        "score": "0 - 1"
+      },
+      {
+        "name": "A. Visco",
+        "minute": "81'",
+        "score": "1 - 1"
+      }
+    ],
+    "homeLineup": [
+      {
+        "name": "F. Troncoso",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "72'"
+          }
+        ]
+      },
+      {
+        "name": "H. Ortiz",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "83'"
+          }
+        ]
+      },
+      {
+        "name": "R. Barreto",
+        "events": []
+      },
+      {
+        "name": "L. Cardozo",
+        "events": []
+      },
+      {
+        "name": "A. Cruz",
+        "events": []
+      },
+      {
+        "name": "R. Priori",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "63'"
+          }
+        ]
+      },
+      {
+        "name": "L. Zárate",
+        "events": []
+      },
+      {
+        "name": "A. Visco",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "75'"
+          },
+          {
+            "type": "Goal",
+            "minute": "81'"
+          }
+        ]
+      },
+      {
+        "name": "C. Campuzano",
+        "events": []
+      },
+      {
+        "name": "J. Martínez",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "13'"
+          }
+        ]
+      },
+      {
+        "name": "S. Brotzman",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "43'"
+          }
+        ]
+      }
+    ],
+    "awayLineup": [
+      {
+        "name": "M. Perafán",
+        "events": []
+      },
+      {
+        "name": "G. Bojanich",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "75'"
+          }
+        ]
+      },
+      {
+        "name": "M. Pollacchi",
+        "events": []
+      },
+      {
+        "name": "A. Schönfeld",
+        "events": []
+      },
+      {
+        "name": "F. Garzino",
+        "events": []
+      },
+      {
+        "name": "M. Puch",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "16'"
+          }
+        ]
+      },
+      {
+        "name": "J. Fernández",
+        "events": []
+      },
+      {
+        "name": "Á. Ramón",
+        "events": []
+      },
+      {
+        "name": "T. Ponzo",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "3'"
+          }
+        ]
+      },
+      {
+        "name": "M. Resquín",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "31'"
+          }
+        ]
+      },
+      {
+        "name": "F. Sellecchia",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "83'"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 22/03/2025",
+    "homeTeam": "UAI Urquiza",
+    "awayTeam": "Excursionistas",
+    "score": "1 - 2",
+    "matchLink": "https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/atletico-ferrocarril-urquiza/excursionistas/4591387/",
+    "goals": [
+      {
+        "name": "H. Igarzábal",
+        "minute": "10'",
+        "score": "0 - 1"
+      },
+      {
+        "name": "J. Zárate",
+        "minute": "25'",
+        "score": "0 - 2"
+      },
+      {
+        "name": "R. Scarcella",
+        "minute": "74'",
+        "score": "1 - 2"
+      }
+    ],
+    "homeLineup": [
+      {
+        "name": "A. Bottini",
+        "events": []
+      },
+      {
+        "name": "N. Menéndez",
+        "events": []
+      },
+      {
+        "name": "M. Alaniz",
+        "events": []
+      },
+      {
+        "name": "V. Rodríguez",
+        "events": [
+          {
+            "type": "Red Card",
+            "minute": "22'"
+          }
+        ]
+      },
+      {
+        "name": "L. Arcuri",
+        "events": []
+      },
+      {
+        "name": "M. Aguirre",
+        "events": []
+      },
+      {
+        "name": "S. Piccinetti",
+        "events": []
+      },
+      {
+        "name": "S. Sciacqua",
+        "events": []
+      },
+      {
+        "name": "P. Madero",
+        "events": []
+      },
+      {
+        "name": "M. Brito",
+        "events": []
+      },
+      {
+        "name": "J. Ingratti",
+        "events": []
+      }
+    ],
+    "awayLineup": [
+      {
+        "name": "N. Cajal",
+        "events": []
+      },
+      {
+        "name": "M. Cahais",
+        "events": []
+      },
+      {
+        "name": "H. Igarzábal",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "10'"
+          }
+        ]
+      },
+      {
+        "name": "H. Zarco",
+        "events": []
+      },
+      {
+        "name": "C. Peralta",
+        "events": []
+      },
+      {
+        "name": "N. Mosca",
+        "events": []
+      },
+      {
+        "name": "F. Ferraro",
+        "events": []
+      },
+      {
+        "name": "L. Pata",
+        "events": []
+      },
+      {
+        "name": "G. Zoratti",
+        "events": []
+      },
+      {
+        "name": "J. Zárate",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "25'"
+          }
+        ]
+      },
+      {
+        "name": "I. Vera",
+        "events": []
+      }
+    ]
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 22/03/2025",
+    "homeTeam": "Sportivo Italiano",
+    "awayTeam": "Midland",
+    "score": "0 - 1",
+    "matchLink": "https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/club-sportivo-italiano/asociacion-ferrocarril-midland/4591388/",
+    "goals": [
+      {
+        "name": "M. Rogoski",
+        "minute": "63'",
+        "score": "0 - 1"
+      }
+    ],
+    "homeLineup": [
+      {
+        "name": "F. Díaz",
+        "events": []
+      },
+      {
+        "name": "E. Mayola",
+        "events": []
+      },
+      {
+        "name": "C. Bifiguer",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "15'"
+          }
+        ]
+      },
+      {
+        "name": "E. Porro",
+        "events": []
+      },
+      {
+        "name": "E. Díaz",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "33'"
+          }
+        ]
+      },
+      {
+        "name": "B. Kreiman",
+        "events": []
+      },
+      {
+        "name": "L. Laborda",
+        "events": []
+      },
+      {
+        "name": "F. Gómez",
+        "events": []
+      },
+      {
+        "name": "J. Rojas",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "18'"
+          }
+        ]
+      },
+      {
+        "name": "E. Mozzone",
+        "events": []
+      },
+      {
+        "name": "F. Aguirre",
+        "events": []
+      }
+    ],
+    "awayLineup": [
+      {
+        "name": "L. Maldonado",
+        "events": []
+      },
+      {
+        "name": "F. Cataldi",
+        "events": []
+      },
+      {
+        "name": "J. Kruger",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "77'"
+          }
+        ]
+      },
+      {
+        "name": "P. Castorani",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "30'"
+          }
+        ]
+      },
+      {
+        "name": "M. Frattini",
+        "events": []
+      },
+      {
+        "name": "A. Campana",
+        "events": []
+      },
+      {
+        "name": "M. Rogoski",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "63'"
+          }
+        ]
+      },
+      {
+        "name": "G. Calabria",
+        "events": []
+      },
+      {
+        "name": "N. Violini",
+        "events": []
+      },
+      {
+        "name": "L. Díaz Laharque",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "22'"
+          }
+        ]
+      },
+      {
+        "name": "F. Molina",
+        "events": []
+      }
+    ]
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 22/03/2025",
+    "homeTeam": "Comunicaciones",
+    "awayTeam": "Deportivo Laferrere",
+    "score": "2 - 2",
+    "matchLink": "https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/club-comunicaciones/laferrere/4591379/",
+    "goals": [
+      {
+        "name": "M. Tunessi",
+        "minute": "10'",
+        "score": "1 - 0"
+      },
+      {
+        "name": "F. Ortíz",
+        "minute": "23'",
+        "score": "2 - 0"
+      },
+      {
+        "name": "C. Gugenheim",
+        "minute": "58'",
+        "score": "2 - 1"
+      },
+      {
+        "name": "L. Goberville",
+        "minute": "90'+2",
+        "score": "2 - 2"
+      }
+    ],
+    "homeLineup": [
+      {
+        "name": "F. Otarola",
+        "events": []
+      },
+      {
+        "name": "C. Chimino",
+        "events": []
+      },
+      {
+        "name": "M. López",
+        "events": []
+      },
+      {
+        "name": "G. Zabala",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "38'"
+          }
+        ]
+      },
+      {
+        "name": "J. Ibáñez",
+        "events": []
+      },
+      {
+        "name": "C. Puigdellivol",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "68'"
+          }
+        ]
+      },
+      {
+        "name": "F. López",
+        "events": []
+      },
+      {
+        "name": "A. Arrighi",
+        "events": []
+      },
+      {
+        "name": "M. Brambillo",
+        "events": []
+      },
+      {
+        "name": "M. Tunessi",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "10'"
+          }
+        ]
+      },
+      {
+        "name": "D. Maguicha",
+        "events": []
+      }
+    ],
+    "awayLineup": [
+      {
+        "name": "C. Morel",
+        "events": []
+      },
+      {
+        "name": "F. Gómez",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "30'"
+          }
+        ]
+      },
+      {
+        "name": "F. Real",
+        "events": []
+      },
+      {
+        "name": "D. Solís",
+        "events": []
+      },
+      {
+        "name": "E. Trejo",
+        "events": []
+      },
+      {
+        "name": "A. Paulides",
+        "events": []
+      },
+      {
+        "name": "F. Ortíz",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "23'"
+          }
+        ]
+      },
+      {
+        "name": "M. Cantero",
+        "events": []
+      },
+      {
+        "name": "C. Gugenheim",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "58'"
+          }
+        ]
+      },
+      {
+        "name": "L. Benítez",
+        "events": []
+      },
+      {
+        "name": "A. Espeche",
+        "events": []
+      }
+    ]
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 22/03/2025",
+    "homeTeam": "Real Pilar",
+    "awayTeam": "Acassuso",
+    "score": "2 - 0",
+    "matchLink": "https://us.soccerway.com/matches/2025/03/22/argentina/prim-b-metro/real-pilar/ca-acassuso/4591386/",
+    "goals": [
+      {
+        "name": "M. Riquelme",
+        "minute": "31'",
+        "score": "1 - 0"
+      },
+      {
+        "name": "L. Chambi",
+        "minute": "82'",
+        "score": "2 - 0"
+      }
+    ],
+    "homeLineup": [
+      {
+        "name": "M. Cano",
+        "events": []
+      },
+      {
+        "name": "L. Monge",
+        "events": []
+      },
+      {
+        "name": "J. Rodríguez",
+        "events": []
+      },
+      {
+        "name": "E. Franco",
+        "events": []
+      },
+      {
+        "name": "G. Govi",
+        "events": []
+      },
+      {
+        "name": "N. Pansardi",
+        "events": []
+      },
+      {
+        "name": "L. Chambi",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "82'"
+          }
+        ]
+      },
+      {
+        "name": "I. Smith",
+        "events": []
+      },
+      {
+        "name": "N. Ríos",
+        "events": []
+      },
+      {
+        "name": "M. Riquelme",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "31'"
+          }
+        ]
+      },
+      {
+        "name": "B. Martín",
+        "events": []
+      }
+    ],
+    "awayLineup": [
+      {
+        "name": "J. Domínguez",
+        "events": []
+      },
+      {
+        "name": "E. Filippetto",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "47'"
+          }
+        ]
+      },
+      {
+        "name": "J. Ghirardello",
+        "events": []
+      },
+      {
+        "name": "A. Ruíz",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "86'"
+          }
+        ]
+      },
+      {
+        "name": "J. Ponce de León",
+        "events": []
+      },
+      {
+        "name": "D. Escalante",
+        "events": []
+      },
+      {
+        "name": "F. Nicolaievski",
+        "events": []
+      },
+      {
+        "name": "J. Serrizuela",
+        "events": []
+      },
+      {
+        "name": "B. Hernández",
+        "events": []
+      },
+      {
+        "name": "F. Senn",
+        "events": []
+      },
+      {
+        "name": "D. de Estéfano",
+        "events": []
+      }
+    ]
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 22/03/2025",
+    "homeTeam": "San Martín Burzaco",
+    "awayTeam": "Flandria",
+    "score": "1 - 0",
+    "matchLink": "https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/san-martin-de-burzaco/csyd-flandria/4591381/",
+    "goals": [
+      {
+        "name": "A. Siliman",
+        "minute": "31'",
+        "score": "1 - 0"
+      }
+    ],
+    "homeLineup": [
+      {
+        "name": "G. Rehak",
+        "events": []
+      },
+      {
+        "name": "M. Escudero",
+        "events": []
+      },
+      {
+        "name": "B. Molina",
+        "events": []
+      },
+      {
+        "name": "S. Díaz",
+        "events": []
+      },
+      {
+        "name": "A. Siliman",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "31'"
+          }
+        ]
+      },
+      {
+        "name": "D. Auzqui",
+        "events": []
+      },
+      {
+        "name": "F. Benítez",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "76'"
+          }
+        ]
+      },
+      {
+        "name": "M. Ortigoza",
+        "events": []
+      },
+      {
+        "name": "C. Treppo",
+        "events": []
+      },
+      {
+        "name": "F. Giménez",
+        "events": []
+      },
+      {
+        "name": "L. Geneiro",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "45'"
+          }
+        ]
+      }
+    ],
+    "awayLineup": [
+      {
+        "name": "T. Figueroa",
+        "events": []
+      },
+      {
+        "name": "A. Morales",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "22'"
+          }
+        ]
+      },
+      {
+        "name": "M. Mariatti",
+        "events": []
+      },
+      {
+        "name": "D. Spitale",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "53'"
+          }
+        ]
+      },
+      {
+        "name": "F. Schiavoni",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "50'"
+          }
+        ]
+      },
+      {
+        "name": "F. Bustamante",
+        "events": []
+      },
+      {
+        "name": "G. Salega",
+        "events": []
+      },
+      {
+        "name": "A. Nalerio",
+        "events": []
+      },
+      {
+        "name": "B. Guelfi",
+        "events": [
+          {
+            "type": "Red Card",
+            "minute": "60'"
+          }
+        ]
+      },
+      {
+        "name": "M. Correa",
+        "events": []
+      },
+      {
+        "name": "J. Palacio",
+        "events": []
+      }
+    ]
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 22/03/2025",
+    "homeTeam": "Deportivo Merlo",
+    "awayTeam": "Argentino Quilmes",
+    "score": "1 - 0",
+    "matchLink": "https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/club-social-y-deportivo-merlo/argentino-de-quilmes/4591383/",
+    "goals": [
+      {
+        "name": "S. Sosa",
+        "minute": "54'",
+        "score": "1 - 0"
+      }
+    ],
+    "homeLineup": [
+      {
+        "name": "P. Fernández",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "72'"
+          }
+        ]
+      },
+      {
+        "name": "A. Ordano",
+        "events": []
+      },
+      {
+        "name": "A. Jiménez",
+        "events": []
+      },
+      {
+        "name": "G. Ojeda",
+        "events": []
+      },
+      {
+        "name": "S. Sosa",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "54'"
+          }
+        ]
+      },
+      {
+        "name": "T. Bernal",
+        "events": []
+      },
+      {
+        "name": "L. Ibarra",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "68'"
+          }
+        ]
+      },
+      {
+        "name": "S. Benega",
+        "events": []
+      },
+      {
+        "name": "R. Cao",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "88'"
+          },
+          {
+            "type": "Other",
+            "minute": "90+7'"
+          }
+        ]
+      },
+      {
+        "name": "F. González",
+        "events": []
+      },
+      {
+        "name": "F. Aguerre",
+        "events": []
+      }
+    ],
+    "awayLineup": [
+      {
+        "name": "A. Tello",
+        "events": []
+      },
+      {
+        "name": "G. Pedrosa",
+        "events": []
+      },
+      {
+        "name": "L. Nadalín",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "42'"
+          }
+        ]
+      },
+      {
+        "name": "F. Cosciuc",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "68'"
+          }
+        ]
+      },
+      {
+        "name": "L. Escalante",
+        "events": []
+      },
+      {
+        "name": "C. Maidana",
+        "events": []
+      },
+      {
+        "name": "A. Ortíz",
+        "events": []
+      },
+      {
+        "name": "F. Cipresso",
+        "events": []
+      },
+      {
+        "name": "D. Roberts",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "90+7'"
+          }
+        ]
+      },
+      {
+        "name": "A. Abregú",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "66'"
+          }
+        ]
+      },
+      {
+        "name": "E. Torancio",
+        "events": []
+      }
+    ]
+  },
+  {
+    "matchday": "",
+    "date": "Sunday 23/03/2025",
+    "homeTeam": "Deportivo Armenio",
+    "awayTeam": "Fénix",
+    "score": "1 - 1",
+    "matchLink": "https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/club-deportivo-armenio/fenix/4591380/",
+    "goals": [
+      {
+        "name": "D. Anríquez",
+        "minute": "7'",
+        "score": "0 - 1"
+      },
+      {
+        "name": "J. Herrera",
+        "minute": "25'",
+        "score": "1 - 1"
+      }
+    ],
+    "homeLineup": [
+      {
+        "name": "I. López",
+        "events": []
+      },
+      {
+        "name": "N. Troxler",
+        "events": []
+      },
+      {
+        "name": "L. Medina",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "12'"
+          }
+        ]
+      },
+      {
+        "name": "I. Pérez",
+        "events": []
+      },
+      {
+        "name": "I. Cardozo",
+        "events": []
+      },
+      {
+        "name": "N. Sica",
+        "events": []
+      },
+      {
+        "name": "V. Venetucci",
+        "events": []
+      },
+      {
+        "name": "D. Barrionuevo",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "19'"
+          }
+        ]
+      },
+      {
+        "name": "S. Montero",
+        "events": []
+      },
+      {
+        "name": "J. Herrera",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "25'"
+          },
+          {
+            "type": "Yellow Card",
+            "minute": "75'"
+          }
+        ]
+      },
+      {
+        "name": "G. Maldonado",
+        "events": []
+      }
+    ],
+    "awayLineup": [
+      {
+        "name": "V. Parra",
+        "events": []
+      },
+      {
+        "name": "J. Bembo",
+        "events": []
+      },
+      {
+        "name": "G. Rodríguez",
+        "events": []
+      },
+      {
+        "name": "L. Córdoba",
+        "events": []
+      },
+      {
+        "name": "S. Martín",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "59'"
+          }
+        ]
+      },
+      {
+        "name": "M. Sánchez",
+        "events": []
+      },
+      {
+        "name": "F. Pérez",
+        "events": []
+      },
+      {
+        "name": "R. Breccia",
+        "events": []
+      },
+      {
+        "name": "F. Díaz",
+        "events": []
+      },
+      {
+        "name": "F. Melivillo",
+        "events": []
+      },
+      {
+        "name": "D. Anríquez",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "7'"
+          },
+          {
+            "type": "Red Card",
+            "minute": "30'"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "matchday": "",
+    "date": "Sunday 23/03/2025",
+    "homeTeam": "Dock Sud",
+    "awayTeam": "Argentino Merlo",
+    "score": "1 - 2",
+    "matchLink": "https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/dock-sud/argentino-de-merlo/4591384/",
+    "goals": [
+      {
+        "name": "R. Pérez",
+        "minute": "51'",
+        "score": "1 - 0"
+      },
+      {
+        "name": "L. Llodrá",
+        "minute": "70'",
+        "score": "1 - 1"
+      },
+      {
+        "name": "L. Romero",
+        "minute": "80'",
+        "score": "1 - 2"
+      }
+    ],
+    "homeLineup": [
+      {
+        "name": "J. Bustillos",
+        "events": []
+      },
+      {
+        "name": "L. Nebot",
+        "events": []
+      },
+      {
+        "name": "L. Chaparro",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "85'"
+          }
+        ]
+      },
+      {
+        "name": "P. Durante",
+        "events": []
+      },
+      {
+        "name": "N. López",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "25'"
+          }
+        ]
+      },
+      {
+        "name": "Alejandro Ávalos",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "30'"
+          }
+        ]
+      },
+      {
+        "name": "F. Pérez",
+        "events": []
+      },
+      {
+        "name": "V. Quevedo",
+        "events": []
+      },
+      {
+        "name": "B. Villalba",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "37'"
+          }
+        ]
+      },
+      {
+        "name": "M. Molina",
+        "events": []
+      },
+      {
+        "name": "J. González",
+        "events": []
+      }
+    ],
+    "awayLineup": [
+      {
+        "name": "C. Atamañuk",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "90'"
+          }
+        ]
+      },
+      {
+        "name": "D. Ursino",
+        "events": []
+      },
+      {
+        "name": "A. Ledesma",
+        "events": []
+      },
+      {
+        "name": "E. Zárate",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "46'"
+          }
+        ]
+      },
+      {
+        "name": "C. Giménez",
+        "events": []
+      },
+      {
+        "name": "C. Medina",
+        "events": []
+      },
+      {
+        "name": "M. Ledesma",
+        "events": []
+      },
+      {
+        "name": "V. López",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "41'"
+          }
+        ]
+      },
+      {
+        "name": "F. Maldonado",
+        "events": []
+      },
+      {
+        "name": "L. Scarnato",
+        "events": []
+      },
+      {
+        "name": "J. Ortíz",
+        "events": []
+      }
+    ]
+  },
+  {
+    "matchday": "",
+    "date": "Sunday 23/03/2025",
+    "homeTeam": "Villa San Carlos",
+    "awayTeam": "Brown de Adrogué",
+    "score": "2 - 1",
+    "matchLink": "https://us.soccerway.com/matches/2025/03/23/argentina/prim-b-metro/villa-san-carlos/club-atletico-brown-de-adrogue/4591385/",
+    "goals": [
+      {
+        "name": "J. Cañete",
+        "minute": "15'",
+        "score": "0 - 1"
+      },
+      {
+        "name": "F. Cairo",
+        "minute": "20'",
+        "score": "1 - 1"
+      },
+      {
+        "name": "E. Zagert",
+        "minute": "85'",
+        "score": "2 - 1"
+      }
+    ],
+    "homeLineup": [
+      {
+        "name": "T. Akimenco",
+        "events": []
+      },
+      {
+        "name": "N. Benavídez",
+        "events": []
+      },
+      {
+        "name": "A. Lloyaiy",
+        "events": []
+      },
+      {
+        "name": "F. Cacace",
+        "events": []
+      },
+      {
+        "name": "Á. Acosta",
+        "events": []
+      },
+      {
+        "name": "F. Cairo",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "20'"
+          }
+        ]
+      },
+      {
+        "name": "A. Pontón",
+        "events": []
+      },
+      {
+        "name": "E. Zagert",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "85'"
+          }
+        ]
+      },
+      {
+        "name": "A. Lugones",
+        "events": []
+      },
+      {
+        "name": "M. Samaniego",
+        "events": []
+      },
+      {
+        "name": "F. Zabala",
+        "events": []
+      }
+    ],
+    "awayLineup": [
+      {
+        "name": "S. Giovini",
+        "events": []
+      },
+      {
+        "name": "L. Lugarzo",
+        "events": []
+      },
+      {
+        "name": "A. Minnicelli",
+        "events": []
+      },
+      {
+        "name": "M. Pieres",
+        "events": []
+      },
+      {
+        "name": "A. Sánchez",
+        "events": []
+      },
+      {
+        "name": "J. Bogado",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "74'"
+          }
+        ]
+      },
+      {
+        "name": "F. Enrique",
+        "events": [
+          {
+            "type": "Yellow Card",
+            "minute": "90+2'"
+          }
+        ]
+      },
+      {
+        "name": "M. Sproat",
+        "events": []
+      },
+      {
+        "name": "L. Lovazzano",
+        "events": []
+      },
+      {
+        "name": "J. Cañete",
+        "events": [
+          {
+            "type": "Goal",
+            "minute": "15'"
+          }
+        ]
+      },
+      {
+        "name": "J. Mendoza",
+        "events": []
+      }
+    ]
+  }
+]

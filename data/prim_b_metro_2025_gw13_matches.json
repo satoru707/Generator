@@ -1,0 +1,134 @@
+INSERT INTO matches (
+    matchday, 
+    date, 
+    home_team, 
+    away_team, 
+    match_link
+) VALUES 
+('Game week 13', '2025-04-26', 'UAI Urquiza', 'Villa San Carlos', 'https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/atletico-ferrocarril-urquiza/villa-san-carlos/4591429/'),
+('Game week 13', '2025-04-26', 'Sportivo Italiano', 'Dock Sud', 'https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/club-sportivo-italiano/dock-sud/4591430/'),
+('Game week 13', '2025-04-26', 'Midland', 'Deportivo Merlo', 'https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/asociacion-ferrocarril-midland/club-social-y-deportivo-merlo/4591431/'),
+('Game week 13', '2025-04-26', 'Excursionistas', 'Sacachispas', 'https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/excursionistas/sacachispas-fc/4591432/'),
+('Game week 13', '2025-04-26', 'Acassuso', 'San Martín Burzaco', 'https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/ca-acassuso/san-martin-de-burzaco/4591433/'),
+('Game week 13', '2025-04-26', 'Brown de Adrogué', 'Deportivo Armenio', 'https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/club-atletico-brown-de-adrogue/club-deportivo-armenio/4591434/'),
+('Game week 13', '2025-04-26', 'Argentino Merlo', 'Comunicaciones', 'https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/argentino-de-merlo/club-comunicaciones/4591435/'),
+('Game week 13', '2025-04-26', 'Argentino Quilmes', 'Liniers', 'https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/argentino-de-quilmes/deportivo-liniers/4591436/'),
+('Game week 13', '2025-04-26', 'Villa Dálmine', 'Deportivo Laferrere', 'https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/villa-dalmine/laferrere/4591437/'),
+('Game week 13', '2025-04-26', 'Flandria', 'Fénix', 'https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/csyd-flandria/fenix/4591438/');
+
+
+
+
+
+[
+  {
+    "matchday": "",
+    "date": "Saturday 26/04/2025",
+    "homeTeam": "UAI Urquiza",
+    "awayTeam": "Villa San Carlos",
+    "score": "",
+    "matchLink": "https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/atletico-ferrocarril-urquiza/villa-san-carlos/4591429/",
+    "goals": [],
+    "homeLineup": [],
+    "awayLineup": []
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 26/04/2025",
+    "homeTeam": "Sportivo Italiano",
+    "awayTeam": "Dock Sud",
+    "score": "",
+    "matchLink": "https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/club-sportivo-italiano/dock-sud/4591430/",
+    "goals": [],
+    "homeLineup": [],
+    "awayLineup": []
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 26/04/2025",
+    "homeTeam": "Midland",
+    "awayTeam": "Deportivo Merlo",
+    "score": "",
+    "matchLink": "https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/asociacion-ferrocarril-midland/club-social-y-deportivo-merlo/4591431/",
+    "goals": [],
+    "homeLineup": [],
+    "awayLineup": []
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 26/04/2025",
+    "homeTeam": "Excursionistas",
+    "awayTeam": "Sacachispas",
+    "score": "",
+    "matchLink": "https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/excursionistas/sacachispas-fc/4591432/",
+    "goals": [],
+    "homeLineup": [],
+    "awayLineup": []
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 26/04/2025",
+    "homeTeam": "Acassuso",
+    "awayTeam": "San Martín Burzaco",
+    "score": "",
+    "matchLink": "https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/ca-acassuso/san-martin-de-burzaco/4591433/",
+    "goals": [],
+    "homeLineup": [],
+    "awayLineup": []
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 26/04/2025",
+    "homeTeam": "Brown de Adrogué",
+    "awayTeam": "Deportivo Armenio",
+    "score": "",
+    "matchLink": "https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/club-atletico-brown-de-adrogue/club-deportivo-armenio/4591434/",
+    "goals": [],
+    "homeLineup": [],
+    "awayLineup": []
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 26/04/2025",
+    "homeTeam": "Argentino Merlo",
+    "awayTeam": "Comunicaciones",
+    "score": "",
+    "matchLink": "https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/argentino-de-merlo/club-comunicaciones/4591435/",
+    "goals": [],
+    "homeLineup": [],
+    "awayLineup": []
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 26/04/2025",
+    "homeTeam": "Argentino Quilmes",
+    "awayTeam": "Liniers",
+    "score": "",
+    "matchLink": "https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/argentino-de-quilmes/deportivo-liniers/4591436/",
+    "goals": [],
+    "homeLineup": [],
+    "awayLineup": []
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 26/04/2025",
+    "homeTeam": "Villa Dálmine",
+    "awayTeam": "Deportivo Laferrere",
+    "score": "",
+    "matchLink": "https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/villa-dalmine/laferrere/4591437/",
+    "goals": [],
+    "homeLineup": [],
+    "awayLineup": []
+  },
+  {
+    "matchday": "",
+    "date": "Saturday 26/04/2025",
+    "homeTeam": "Flandria",
+    "awayTeam": "Fénix",
+    "score": "",
+    "matchLink": "https://us.soccerway.com/matches/2025/04/26/argentina/prim-b-metro/csyd-flandria/fenix/4591438/",
+    "goals": [],
+    "homeLineup": [],
+    "awayLineup": []
+  }
+]
